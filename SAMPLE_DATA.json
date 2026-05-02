@@ -1,0 +1,255 @@
+{
+  "spareParts": [
+    {
+      "name": "Engine Oil Filter",
+      "description": "High-quality engine oil filter for optimal performance and engine protection",
+      "category": "Filters",
+      "price": 350,
+      "stock": 50
+    },
+    {
+      "name": "Brake Pads Set (Front)",
+      "description": "Premium ceramic brake pads for superior stopping power and reduced noise",
+      "category": "Brakes",
+      "price": 2500,
+      "stock": 30
+    },
+    {
+      "name": "Air Filter",
+      "description": "Genuine air filter for better fuel efficiency and engine performance",
+      "category": "Filters",
+      "price": 450,
+      "stock": 45
+    },
+    {
+      "name": "Spark Plugs (Set of 4)",
+      "description": "High-performance iridium spark plugs for smooth ignition",
+      "category": "Engine",
+      "price": 800,
+      "stock": 60
+    },
+    {
+      "name": "Car Battery 12V 65Ah",
+      "description": "Long-lasting maintenance-free car battery with 3-year warranty",
+      "category": "Electrical",
+      "price": 5500,
+      "stock": 20
+    },
+    {
+      "name": "Headlight Bulb H4 55W",
+      "description": "Bright halogen headlight bulb for improved visibility",
+      "category": "Electrical",
+      "price": 250,
+      "stock": 100
+    },
+    {
+      "name": "Windshield Wiper Blades (Pair)",
+      "description": "Premium rubber wiper blades for clear visibility in all weather",
+      "category": "Body",
+      "price": 600,
+      "stock": 40
+    },
+    {
+      "name": "Suspension Shock Absorbers (Pair)",
+      "description": "Heavy-duty shock absorbers for smooth and comfortable ride",
+      "category": "Suspension",
+      "price": 4500,
+      "stock": 15
+    },
+    {
+      "name": "Brake Fluid DOT 4 (1L)",
+      "description": "High-quality synthetic brake fluid for optimal braking performance",
+      "category": "Brakes",
+      "price": 400,
+      "stock": 80
+    },
+    {
+      "name": "Tire 195/65 R15 Tubeless",
+      "description": "Premium radial tire with excellent grip and 5-year warranty",
+      "category": "Tires",
+      "price": 4500,
+      "stock": 25
+    },
+    {
+      "name": "Engine Oil 5W-30 Synthetic (4L)",
+      "description": "Fully synthetic engine oil for superior engine protection",
+      "category": "Engine",
+      "price": 2800,
+      "stock": 35
+    },
+    {
+      "name": "Cabin Air Filter",
+      "description": "Activated carbon cabin filter for clean and fresh air",
+      "category": "Filters",
+      "price": 550,
+      "stock": 40
+    },
+    {
+      "name": "Alternator Belt",
+      "description": "Durable rubber alternator belt for reliable power generation",
+      "category": "Engine",
+      "price": 350,
+      "stock": 55
+    },
+    {
+      "name": "Clutch Plate Kit",
+      "description": "Complete clutch plate kit for smooth gear changes",
+      "category": "Engine",
+      "price": 6500,
+      "stock": 12
+    },
+    {
+      "name": "LED Fog Lights (Pair)",
+      "description": "Bright LED fog lights for better visibility in fog and rain",
+      "category": "Electrical",
+      "price": 1800,
+      "stock": 28
+    },
+    {
+      "name": "Coolant/Antifreeze (5L)",
+      "description": "Premium coolant to prevent engine overheating and freezing",
+      "category": "Engine",
+      "price": 850,
+      "stock": 45
+    },
+    {
+      "name": "Wheel Bearing Kit",
+      "description": "High-quality wheel bearing for smooth and quiet operation",
+      "category": "Suspension",
+      "price": 1200,
+      "stock": 22
+    },
+    {
+      "name": "Rear View Mirror",
+      "description": "Auto-dimming rear view mirror with anti-glare coating",
+      "category": "Body",
+      "price": 950,
+      "stock": 18
+    },
+    {
+      "name": "Radiator Cap",
+      "description": "Pressure-rated radiator cap for proper cooling system operation",
+      "category": "Engine",
+      "price": 180,
+      "stock": 65
+    },
+    {
+      "name": "Horn 12V Dual Tone",
+      "description": "Loud dual-tone electric horn for safety",
+      "category": "Electrical",
+      "price": 450,
+      "stock": 38
+    },
+    {
+      "name": "Side Mirror (Left)",
+      "description": "OEM quality side mirror with manual adjustment",
+      "category": "Body",
+      "price": 1500,
+      "stock": 15
+    },
+    {
+      "name": "Brake Disc Rotors (Front Pair)",
+      "description": "Vented brake disc rotors for efficient heat dissipation",
+      "category": "Brakes",
+      "price": 3200,
+      "stock": 20
+    },
+    {
+      "name": "Fuel Filter",
+      "description": "High-efficiency fuel filter for clean fuel delivery",
+      "category": "Filters",
+      "price": 280,
+      "stock": 58
+    },
+    {
+      "name": "Transmission Oil ATF (1L)",
+      "description": "Automatic transmission fluid for smooth gear shifts",
+      "category": "Engine",
+      "price": 650,
+      "stock": 42
+    },
+    {
+      "name": "Door Handle (Exterior)",
+      "description": "Chrome-plated exterior door handle - durable and stylish",
+      "category": "Body",
+      "price": 800,
+      "stock": 24
+    }
+  ],
+  
+  "sampleUsers": [
+    {
+      "note": "Create these users manually through the app, then update role in Firestore",
+      "users": [
+        {
+          "email": "admin@vehicle.com",
+          "password": "admin123",
+          "name": "Admin User",
+          "role": "admin",
+          "phone": "+91 9876543210",
+          "address": "Admin Office, Mumbai, Maharashtra"
+        },
+        {
+          "email": "user@vehicle.com",
+          "password": "user123",
+          "name": "Demo User",
+          "role": "user",
+          "phone": "+91 8765432109",
+          "address": "123 Main Street, Pune, Maharashtra"
+        }
+      ]
+    }
+  ],
+
+  "instructions": {
+    "addSpareParts": [
+      "1. Open Firebase Console",
+      "2. Go to Firestore Database",
+      "3. Click 'Start collection' (or select existing 'spareParts' collection)",
+      "4. Collection ID: spareParts",
+      "5. For each item in the spareParts array above:",
+      "   - Click 'Add document'",
+      "   - Use Auto-ID or custom ID",
+      "   - Add fields: name, description, category, price (number), stock (number)",
+      "   - Add field: createdAt (string) with current ISO date",
+      "   - Click 'Save'",
+      "6. Repeat for all spare parts"
+    ],
+    "quickAdd": [
+      "To add quickly:",
+      "1. Copy a spare part object from above",
+      "2. In Firestore, click 'Add document'",
+      "3. Paste values into fields",
+      "4. Make sure 'price' and 'stock' are set as 'number' type",
+      "5. Add 'createdAt' field manually with current date in ISO format",
+      "6. Example: 2025-01-15T10:00:00.000Z"
+    ]
+  },
+
+  "categories": [
+    "Engine",
+    "Brakes",
+    "Suspension",
+    "Electrical",
+    "Body",
+    "Filters",
+    "Tires"
+  ],
+
+  "serviceTypes": [
+    "Oil Change",
+    "General Service",
+    "Tire Rotation",
+    "Brake Service",
+    "Engine Diagnostics",
+    "Transmission Service",
+    "AC Service",
+    "Battery Replacement",
+    "Wheel Alignment",
+    "Full Service"
+  ]
+}
+
+
+
+
