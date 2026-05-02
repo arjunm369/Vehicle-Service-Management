@@ -46,6 +46,12 @@ npm run build
 npm run preview
 ```
 
+5. Create a local `.env` file and add your Firebase API key:
+
+```bash
+VITE_FIREBASE_API_KEY=your_firebase_api_key_here
+```
+
 ## Project Structure
 
 - `src/pages` - page-level views
@@ -55,5 +61,5 @@ npm run preview
 
 ## Notes
 
-- Firebase and Razorpay settings are configured in `src/config`.
-- Update any environment-specific values before deploying.
+- Firebase config reads the API key from `VITE_FIREBASE_API_KEY`.
+- Razorpay settings are configured in `src/config`.

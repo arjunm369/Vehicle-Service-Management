@@ -5,8 +5,14 @@ import { getStorage } from 'firebase/storage';
 
 // Firebase project configuration
 // From Firebase Console -> Project Settings -> General -> Your apps
+const firebaseApiKey = import.meta.env.VITE_FIREBASE_API_KEY;
+
+if (!firebaseApiKey) {
+  throw new Error('Missing VITE_FIREBASE_API_KEY environment variable');
+}
+
 const firebaseConfig = {
-  apiKey: "AIzaSyA-f3hP-4KaaipFyNJkVoI0BtL9Pe3FWlM",
+  apiKey: firebaseApiKey,
   authDomain: "managevehicle-8245e-10753.firebaseapp.com",
   projectId: "managevehicle-8245e-10753",
   storageBucket: "managevehicle-8245e-10753.firebasestorage.app",
